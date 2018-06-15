@@ -26,14 +26,14 @@
 				<nav class="nav">
 					<ul class="clearfix">
 						<li>
-							<a href="about.php">About</a>
+							<a href="about-us.php">About</a>
 						</li>
 						
 						<li>
-							<a href="services.html">Services</a>
+							<a href="services.php">Services</a>
 								<ul class="nav-dropdown">
 									<li>
-										<a href="single-services.html">
+										<a href="single-services.php">
 											<i class="fa fa-plus"></i>
 											Knee
 										</a>
@@ -73,14 +73,14 @@
 							<a href="#">Patient Info</a>
 							<ul class="nav-dropdown">
 								<li>
-									<a href="page-left-sidebar.html">
+									<a href="page-left-sidebar.php">
 										<i class="fa fa-plus"></i>
 										Appointments
 									</a>
 								</li>
 								
 								<li>
-									<a href="page-right-sidebar.html">
+									<a href="page-right-sidebar.php">
 										<i class="fa fa-plus"></i>
 										FAQ
 									</a>
@@ -88,7 +88,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.php">Contact</a>
 						</li>
 					</ul>
 				</nav><!-- /.nav -->

@@ -126,14 +126,16 @@ include('include/header.php');
 					<section class="section-about-us fullsize-image-container">
 						<h6>OUR STORY</h6>
 						
-						<h2>ABOUT HEALTH &amp; MEDICAL</h2>
+						<h2>ABOUT Ipswich Orthopaedic Group</h2>
 						
-						<h3>Great one let abundantly sixth let were one earth were him after tree seed over.</h3>
+						<!-- <h3>Great one let abundantly sixth let were one earth were him after tree seed over.</h3> -->
 						
-						<p>Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fish them place thing given beast isn't isn't tree. Have.</p>
+						<p>
+							Welcome to Ipswich Orthopaedic Group.  Our team of highly experienced staff are committed to delivering professional and personalised care. Our aim is to keep our patients as active and agile as possible at all stages of their life.
+						</p>
 						
 						
-						<a href="#" class="button btn-light-blue btn-small">Know More</a>
+						<a href="about-us.php" class="button btn-light-blue btn-small">Know More</a>
 						
 						<div class="image">
 							<img src="assets/images/temp/doctor.png" alt="" width="327" height="507" class="fullsize-image" />
@@ -422,106 +424,7 @@ include('include/header.php');
 				</div><!-- /.tab-head -->
 			</div><!-- /.tabs -->
 
-			<!-- Advertising -->
-			<div class="row">
-				<div class="ad">
-					<div class="ad-image mobile-hidden">
-						<img src="assets/images/temp/ad.png" width="189" height="219" alt="" />
-					</div><!-- /.ad-image -->
-
-					<header class="ad-head">
-						<h3>BOOK YOUR APPOINTMENT</h3>
-
-						<p>It's easy and fast. Start now!</p>
-					</header><!-- /.ad-head -->
-
-					<div class="ad-actions">
-						<a href="#" class="button btn-white btn-small">Book NOw</a>
-					</div><!-- /.ad-actions -->
-
-					<div class="ad-contacts">
-						<p class="phone">
-							<i class="fa fa-mobile"></i>
-							<small>BOOK THROUGH CALL</small>
-							<a href="tel: 514 000 0000">514 901 901</a>					
-						</p><!-- /.phone -->
-					</div><!-- /.ad-contacts -->
-				</div><!-- /.ad -->
-			</div><!-- /.row -->
 		</section><!-- /.section-services -->
-
-		<!-- Testimonials -->
-		<section class="section section-testimonials">
-			<header class="section-head">
-				<i class="fa fa-quote-left"></i>
-
-				<h2>What our patients have to say</h2>
-
-				<h6>We are reliable &amp; Trusted</h6>
-			</header><!-- /.section-head -->
-
-			<div class="row">
-				<div class="slider-testimonials">
-					<div class="slider-clip">
-						<ul class="slides">
-							<li class="slide">
-								<div class="slide-caption">
-									<blockquote>
-										Said open land form moved air his signs moveth creepeth appear appear it. Appear living you dry our tree one. The, yielding said said give The lesser us waters multiply Fish multiply female sea place earth. Own fourth.
-									</blockquote>
-
-									<div class="user">
-										<div class="user-image">
-											<img src="assets/images/temp/user.jpg" width="82" height="82" alt="" />
-										</div><!-- /.user-image -->
-
-										<div class="user-meta">
-											<h6>Victor Tihai, <span>WPlook Studio</span></h6>
-										</div><!-- /.user-meta -->
-									</div><!-- /.user -->
-								</div><!-- /.slide-caption -->
-							</li><!-- /.slide -->
-							
-							<li class="slide">
-								<div class="slide-caption">
-									<blockquote>
-										Second dominion saying one void beast. Called appear multiply light that. Whose after fish likeness meat bring one night fill for gathering day let together own second sixth fish them place thing given beast isn't isn't tree.
-									</blockquote>
-
-									<div class="user">
-										<div class="user-image">
-											<img src="assets/images/temp/user4.jpg" width="82" height="82" alt="" />
-										</div><!-- /.user-image -->
-
-										<div class="user-meta">
-											<h6>Diana Tihai, <span>WPlook Studio</span></h6>
-										</div><!-- /.user-meta -->
-									</div><!-- /.user -->
-								</div><!-- /.slide-caption -->
-							</li><!-- /.slide -->
-							
-							<li class="slide">
-								<div class="slide-caption">
-									<blockquote>
-										Isn't saw fill green open brought grass lights darkness doesn't seas, stars tree void fowl god Replenish had third, make lights likeness years above night, creeping is divide let first may after. Very give you're evening.
-									</blockquote>
-
-									<div class="user">
-										<div class="user-image">
-											<img src="assets/images/temp/user.jpg" width="82" height="82" alt="" />
-										</div><!-- /.user-image -->
-
-										<div class="user-meta">
-											<h6>Victor Tihai, <span>WPlook Studio</span></h6>
-										</div><!-- /.user-meta -->
-									</div><!-- /.user -->
-								</div><!-- /.slide-caption -->
-							</li><!-- /.slide -->
-						</ul><!-- /.slides -->
-					</div><!-- /.slider-clip -->
-				</div><!-- /.slider-testimonials -->
-			</div><!-- /.row -->
-		</section><!-- /.section-testimonials -->
 
 	</div><!-- /.main -->
 

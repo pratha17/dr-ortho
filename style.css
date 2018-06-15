@@ -11947,35 +11947,6 @@ a.logo:hover {
   }
 }
 
-/* ------------------------------------------------------------ *	Main
-\* ------------------------------------------------------------ */
-.main {
-  position: relative;
-  z-index: 20;
-  padding-bottom: 445px;
-}
-
-.main .large-12 > .breadcrumbs {
-  margin-top: 17px;
-}
-
-.main.grey {
-  background-color: #f0f4f7;
-}
-
-.content .paging {
-  margin-bottom: 96px;
-}
-
-@media (max-width: 1024px) {
-  .main {
-    padding-bottom: 0;
-  }
-  .content .paging {
-    margin-bottom: 39px;
-  }
-}
-
 /* ------------------------------------------------------------ *	Sections
 \* ------------------------------------------------------------ */
 .section .section-head h2,
@@ -13371,19 +13342,64 @@ a.logo:hover {
 
 /* ------------------------------------------------------------ *	Footer
 \* ------------------------------------------------------------ */
+
+.footer-wrap {
+  position: relative;
+}
+/* ------------ Main ----------- */
+.footer-wrap .main {
+  position: relative;
+  z-index: 20;
+  top: 0 ;
+  background: #51b8f2;
+}
+.footer-wrap .main .row {
+  max-width: 100%;
+}
+.footer-wrap .ad-actions {
+  text-align: right;
+}
+.footer-wrap .main .large-1 {
+  height: 100%; 
+}
+.footer-wrap .main .ad-actions,
+.footer-wrap .main .ad-contacts {
+  margin-left: 0;
+  padding-top: 30px;
+} 
+.main .large-12 > .breadcrumbs {
+  margin-top: 17px;
+}
+
+.main.grey {
+  background-color: #f0f4f7;
+}
+
+.content .paging {
+  margin-bottom: 96px;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    padding-bottom: 0;
+  }
+  .content .paging {
+    margin-bottom: 39px;
+  }
+}
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 60;
-  height: 445px;
-  padding-top: 83px;
+  height: auto;
+  padding-top: 40px;
   background-color: #54667a;
 }
 
 .footer h5 {
-  margin-bottom: 48px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 400;
@@ -13468,7 +13484,7 @@ a.logo:hover {
 .copyright {
   padding-top: 20px;
   border-top: 1px solid #5c6f83;
-  margin-top: 97px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -14634,20 +14650,19 @@ input[type='text'].field-date.error:-ms-input-placeholder {
   position: relative;
   z-index: 50;
   height: 120px;
-  padding-left: 230px;
   background-color: #51b8f2;
 }
 
 .ad-image {
-  position: absolute;
-  bottom: 0;
-  left: 27px;
-  width: 189px;
+  height: 100%;
+  width: 300px;
 }
 
 .ad-image img {
   width: 100%;
   height: auto;
+  position: absolute;
+  top: -120px;
 }
 
 .ad-head,
