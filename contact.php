@@ -36,9 +36,10 @@
 							<div class="columns large-12 medium-12">
 								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14513.560374093317!2d73.7280898!3d24.5757301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9200c3904c7caaea!2sNetCoders!5e0!3m2!1sen!2sin!4v1529470912852" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 							</div><!-- /.columns large-12 -->
-							<div class="columns medium-12 large-12">
-						
-								<div class="columns medium-6">
+							<div class="columns medium-12 large-12 contact-section event-body">
+								<div class="columns medium-2">
+								</div>
+								<div class="columns medium-4">
 									<h3>Montreal</h3>
 
 									<p>
@@ -57,7 +58,7 @@
 									</p>
 								</div><!-- /.columns medium-6 -->
 						
-								<div class="columns medium-6">
+								<div class="columns medium-4">
 									<h3>New York</h3>
 
 									<p>
@@ -75,7 +76,8 @@
 										web: <a href="#">http://construction.com/ny/</a>
 									</p>
 								</div><!-- /.columns medium-6 -->
-
+								<div class="columns medium-2">
+								</div>
 							</div><!-- /.columns medium-12 -->
 						</div><!-- /.row -->
 

@@ -12341,11 +12341,12 @@ a.logo:hover {
 }
 
 .section-services.section-doctors {
-  padding-bottom: 0;
+  padding-bottom: 100px;
 }
 
 .section-services.section-doctors .row {
-  margin-bottom: 31px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .service-image {
@@ -13381,7 +13382,7 @@ a.logo:hover {
 }
 .main.grey.services-wrap {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .content .paging {
@@ -18741,4 +18742,13 @@ input[type="search"].search-field:-ms-input-placeholder {
 
 .fa-medium:before {
   content: "";
+}
+
+
+.contact-section {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.contact-section .medium-2 {
+  height: 100px; 
 }

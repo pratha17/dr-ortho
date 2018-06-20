@@ -6,3 +6,9 @@ AddHandler server-parsed .shtml
 AddHandler server-parsed .html
 AddType application/x-httpd-cgi .cgi
 Options Indexes FollowSymLinks Includes
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]

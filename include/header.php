@@ -73,17 +73,17 @@
 						</li>
 						
 						<li>
-							<a href="#">Patient Info</a>
+							<a href="<?php echo URL; ?>/patient-info.php">Patient Info</a>
 							<ul class="nav-dropdown">
 								<li>
-									<a href="<?php echo URL; ?>/page-left-sidebar.php">
+									<a href="<?php echo URL; ?>/patient-info.php">
 										<i class="fa fa-plus"></i>
 										Appointments
 									</a>
 								</li>
 								
 								<li>
-									<a href="<?php echo URL; ?>/page-right-sidebar.php">
+									<a href="<?php echo URL; ?>/faq.php">
 										<i class="fa fa-plus"></i>
 										FAQ
 									</a>
