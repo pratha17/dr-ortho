@@ -6,11 +6,11 @@
                 <div class="columns large-1">
                 </div>
                 <div class="ad-image mobile-hidden columns large-3">
-                    <img src="assets/images/book-appointment.png" alt="" />
+                    <img src="<?php echo URL; ?>/assets/images/book-appointment.png" alt="" />
                 </div><!-- /.ad-image -->
 
                 <div class="ad-actions columns large-3">
-                    <a href="contact-us.php" class="button btn-white btn-small">Book NOw</a>
+                    <a href="<?php echo URL; ?>/contact-us.php" class="button btn-white btn-small">Book NOw</a>
                 </div><!-- /.ad-actions -->
 
                 <div class="ad-contacts columns large-4">
@@ -52,25 +52,25 @@
                 <h5>Quick Links</h5>
                 <ul class="list-links">
                     <li>
-                        <a href="about-us.php">About</a>
+                        <a href="<?php echo URL; ?>/about-us.php">About</a>
                     </li>
                     <li>
-                        <a href="single-services.php">Knee</a>
+                        <a href="<?php echo URL; ?>/services/knee.php">Knee</a>
                     </li>
                     <li>
-                        <a href="#">Shoulder</a>
+                        <a href="<?php echo URL; ?>/services/shoulder.php">Shoulder</a>
                     </li>
                     <li>
-                        <a href="#">Hip</a>
+                        <a href="<?php echo URL; ?>/services/hip.php">Hip</a>
                     </li>
                     <li>
-                        <a href="#">Elbow</a>
+                        <a href="<?php echo URL; ?>/services/elbow.php">Elbow</a>
                     </li>		
                     <li>
-                        <a href="#">Hand/Wrist</a>
+                        <a href="<?php echo URL; ?>/services/hand-wrist.php">Hand/Wrist</a>
                     </li>
                     <li>
-                        <a href="contact.php">Contact</a>
+                        <a href="<?php echo URL; ?>/contact.php">Contact</a>
                     </li>
                 </ul>
             </div><!-- /.columns large-4 -->
@@ -111,8 +111,8 @@
         </div><!-- /.row -->
     </div><!-- /.footer -->	
 </div><!-- /.wrapper -->
-<script src="assets/javascripts/vendor.js"></script>
-<script src="assets/javascripts/jquery.stellar.min.js"></script>
-<script src="assets/javascripts/app.js"></script>
+<script src="<?php echo URL; ?>/assets/javascripts/vendor.js"></script>
+<script src="<?php echo URL; ?>/assets/javascripts/jquery.stellar.min.js"></script>
+<script src="<?php echo URL; ?>/assets/javascripts/app.js"></script>
 </body>
 </html>

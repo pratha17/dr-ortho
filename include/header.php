@@ -1,3 +1,6 @@
+<?php
+	define( 'URL' , "http://" . $_SERVER['SERVER_NAME'] );
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +8,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<meta http-equiv="x-ua-compatible" content="IE=edge" >
 	<title>Health and Medical</title>
-	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
-	<link rel="stylesheet" href="style.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo URL; ?>/assets/images/favicon.ico" />
+	<link rel="stylesheet" href="<?php echo URL; ?>/style.css" />
 </head>
 <body>
 <div class="wrapper">
@@ -14,7 +17,7 @@
 		<div class="row">
 			<div class="columns large-4 medium-12">
 				<a href="index.php" class="logo">
-					<img src="assets/images/logo.png" width="762" height="78" alt="Health &amp; Medical">
+					<img src="<?php echo URL; ?>/assets/images/logo.png" width="762" height="78" alt="Health &amp; Medical">
 				</a>
 			</div><!-- /.columns large-3 -->
 
@@ -26,42 +29,42 @@
 				<nav class="nav">
 					<ul class="clearfix">
 						<li>
-							<a href="about-us.php">About</a>
+							<a href="<?php echo URL; ?>/about-us.php">About</a>
 						</li>
 						
 						<li>
-							<a href="services.php">Services</a>
+							<a href="<?php echo URL; ?>/services.php">Services</a>
 								<ul class="nav-dropdown">
 									<li>
-										<a href="single-services.php">
+										<a href="<?php echo URL; ?>/services/knee.php">
 											<i class="fa fa-plus"></i>
 											Knee
 										</a>
 									</li>
 									
 									<li>
-										<a href="#">
+										<a href="<?php echo URL; ?>/services/shoulder.php">
 											<i class="fa fa-plus"></i>
 											Shoulder
 										</a>
 									</li>
 									
 									<li>
-										<a href="#">
+										<a href="<?php echo URL; ?>/services/hip.php">
 											<i class="fa fa-plus"></i>
 											Hip
 										</a>
 									</li>
 									
 									<li>
-										<a href="#">
+										<a href="<?php echo URL; ?>/services/elbow.php">
 											<i class="fa fa-plus"></i>
 											Elbow
 										</a>
 									</li>
 									
 									<li>
-										<a href="#">
+										<a href="<?php echo URL; ?>/services/hand-wrist.php">
 											<i class="fa fa-plus"></i>
 											Hand/Wrist
 										</a>
@@ -73,14 +76,14 @@
 							<a href="#">Patient Info</a>
 							<ul class="nav-dropdown">
 								<li>
-									<a href="page-left-sidebar.php">
+									<a href="<?php echo URL; ?>/page-left-sidebar.php">
 										<i class="fa fa-plus"></i>
 										Appointments
 									</a>
 								</li>
 								
 								<li>
-									<a href="page-right-sidebar.php">
+									<a href="<?php echo URL; ?>/page-right-sidebar.php">
 										<i class="fa fa-plus"></i>
 										FAQ
 									</a>
@@ -88,7 +91,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="contact.php">Contact</a>
+							<a href="<?php echo URL; ?>/contact.php">Contact</a>
 						</li>
 					</ul>
 				</nav><!-- /.nav -->

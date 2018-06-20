@@ -11632,7 +11632,7 @@ a.logo:hover {
   z-index: 20;
   padding-left: 28px;
   border-left: 1px solid  #d6dce2;
-  margin-top: 29px;
+  margin-top: 38px;
 }
 
 .nav ul {
@@ -12349,8 +12349,10 @@ a.logo:hover {
 }
 
 .service-image {
-  overflow: hidden;
-  max-height: 225px;
+    overflow: hidden;
+    height: 250px;
+    text-align: center;
+    background: #ebe1ff;
 }
 
 .service-image:hover {
@@ -12362,7 +12364,8 @@ a.logo:hover {
 }
 
 .service-image img {
-  width: 100%;
+  width: 50%;
+  margin-top: 30px;
 }
 
 .service-body {
@@ -12374,6 +12377,8 @@ a.logo:hover {
   margin-bottom: 22px;
   color: #54667a;
   text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .service-body p {
@@ -13373,6 +13378,10 @@ a.logo:hover {
 
 .main.grey {
   background-color: #f0f4f7;
+}
+.main.grey.services-wrap {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .content .paging {

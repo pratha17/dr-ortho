@@ -154,76 +154,42 @@ include('include/header.php');
 						<ul class="list-features" itemscope itemtype="http://schema.org/Product">
 							<li>
 								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Diagnostic Imaging</a>
+									<a href="services/knee.php"><i class="fa fa-plus"></i>
+									Knee</a>
 								</p>
 							</li>
 							
 							<li>
 								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Cancer Care</a>
+									<a href="services/shoulder.php"><i class="fa fa-plus"></i>
+									Shoulder</a>
 								</p>
 							</li>
 							
 							<li>
 								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Rehabilitation Center</a>
+									<a href="services/hip.php"><i class="fa fa-plus"></i>
+									Hip</a>
 								</p>
 							</li>
 							
 							<li>
 								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Transplant Services</a>
+									<a href="services/elbow.php"><i class="fa fa-plus"></i>
+									Elbow</a>
 								</p>
 							</li>
 							
 							<li>
 								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Emergency Services</a>
+									<a href="services/hand-wrist.php"><i class="fa fa-plus"></i>
+									Hand/Wrist</a>
 								</p>
 							</li>
-							
-							<li>
-								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Dental Care</a>
-								</p>
-							</li>
-							
-							<li>
-								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Medical Consulting</a>
-								</p>
-							</li>
-							
-							<li>
-								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Blood Bank</a>
-								</p>
-							</li>
-							
-							<li>
-								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Medicine Research</a>
-								</p>
-							</li>
-							
-							<li>
-								<p itemprop="name">
-									<a href="#"><i class="fa fa-plus"></i>
-									Pharmaceutical Advice</a>
-								</p>
-							</li>
+
 						</ul><!-- /.list-features -->
 				
-						<a href="#" class="button btn-white btn-small">Know More</a>
+						<a href="services.php" class="button btn-white btn-small">Know More</a>
 					</section><!-- /.section-features -->
 				</div><!-- /.columns large-6 -->
 			</div><!-- /.row -->
@@ -344,87 +310,6 @@ include('include/header.php');
 			</div><!-- /.row -->
 
 		</section><!-- /.section-doctors -->
-
-		
-		<!-- Services -->
-		<section class="section section-services">
-			<div class="section-ribbon">
-				<i class="icon-hospital white"></i>
-			</div><!-- /.section-ribbon -->
-
-			<header class="section-head">
-				<h2>OUR DEPARTMENTS</h2>
-
-				<h6>WE ARE RELIABLE &amp; TRUSTED</h6>
-			</header><!-- /.section-head -->
-
-			<div class="tabs tabs-services">
-				<div class="tab-head">
-					<div class="tabs-nav">
-						<div class="row">
-							<div class="columns large-12">
-								<ul class="list-services" itemscope itemtype="http://schema.org/Product">
-									<li>
-										<a href="#tab1" itemprop='name'>
-											<span class="icon">
-												<i class="icon-brain"></i>
-											</span>
-											Nurology
-										</a>
-									</li>
-									
-									<li>
-										<a href="#tab2" itemprop='name'>
-											<span class="icon">
-												<i class="icon-heart-attack"></i>
-											</span>
-											Cardiac Surgery
-										</a>
-									</li>
-									
-									<li>
-										<a href="#tab3" itemprop='name'>
-											<span class="icon">
-												<i class="icon-tooth"></i>
-											</span>
-											Dental Care
-										</a>
-									</li>
-									
-									<li>
-										<a href="#tab4" itemprop='name'>
-											<span class="icon">
-												<i class="icon-eye-sign"></i>
-											</span>
-											Eye Care
-										</a>
-									</li>
-									
-									<li>
-										<a href="#tab5" itemprop='name'>
-											<span class="icon">
-												<i class="icon-ear"></i>
-											</span>
-											Ent Center
-										</a>
-									</li>
-									
-									<li>
-										<a href="#tab6" itemprop='name'>
-											<span class="icon">
-												<i class="icon-emergency-call"></i>
-											</span>
-											Emergency Call
-										</a>
-									</li>
-								</ul><!-- /.list-departments -->
-							</div><!-- /.columns large-12 -->
-						</div><!-- /.row -->
-					</div><!-- /.tabs-nav -->
-				</div><!-- /.tab-head -->
-			</div><!-- /.tabs -->
-
-		</section><!-- /.section-services -->
 
 	</div><!-- /.main -->
 
