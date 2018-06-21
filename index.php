@@ -134,7 +134,6 @@ include('include/header.php');
 							Welcome to Ipswich Orthopaedic Group.  Our team of highly experienced staff are committed to delivering professional and personalised care. Our aim is to keep our patients as active and agile as possible at all stages of their life.
 						</p>
 						
-						
 						<a href="about-us.php" class="button btn-light-blue btn-small">Know More</a>
 						
 						<div class="image">
@@ -149,7 +148,7 @@ include('include/header.php');
 				
 						<h2>OUR SERVICES</h2>
 				
-						<p>Tree image fly upon earth a let had, divided don't dominion isn't replenish him good under divide unto divide firmament, fowl gathered our. Which was. Under them his. Fruitful lights their.</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 				
 						<ul class="list-features" itemscope itemtype="http://schema.org/Product">
 							<li>
